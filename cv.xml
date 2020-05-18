@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="html_en.xsl"?>
+<resume>
+  <firstname>Gilles</firstname>
+  <lastname>DI GUGLIELMO</lastname>
+  <address>
+    <street>25, rue Henri Barbusse</street>
+    <zipcode>75005</zipcode>
+    <city>Paris</city>
+    <country>France</country>
+  </address>
+  <phonelist>
+    <number>+33 6 75 70 29 58</number>
+  </phonelist>
+  <email>gdigugli@gmail.com</email>
+  <objective locale="en">Technical leader and software architect position<br/>Design and implementation of large IT applications</objective>
+  <objective locale="fr">Responsable technique et architecte logiciel<br/>Concevoir, réaliser et faire évoluer des projets de R&amp;D</objective>
+  <education>
+    <diploma>
+      <date locale="en">1997-2000</date>
+      <date locale="fr">1997-2000</date>
+      <heading locale="en">Ecole Supérieure en Sciences Informatiques - Sophia Antipolis - France<br/>
+        Graduate Engineering School<br/>
+        <b>Engineering Degree, Computer Science</b>.</heading>
+      <heading locale="fr">
+        <b>Ecole d’ingénieur ESSI - option SAR (Systèmes Réseaux)</b>
+        <br/>Ecole Supérieure en Sciences Informatiques - Sophia Antipolis</heading>
+    </diploma>
+    <diploma>
+      <date locale="en">1995-1997</date>
+      <date locale="fr">1995-1997</date>
+      <heading locale="en">Université de Franche-Comté - Besancon - France<br/>
+        <b>DEUG Science</b> - Degree given for the first two years of university. Graduated 29/198.</heading>
+      <heading locale="fr">
+        <b>DEUG MIAS</b> Mathématiques Informatique et Applications aux Sciences<br/>Faculté des Sciences de Besançon</heading>
+    </diploma>
+    <diploma>
+      <date locale="en">1995</date>
+      <date locale="fr">1995</date>
+      <heading locale="en">Lycée Jules Haag - Besançon - France<br/>
+        <b>Baccalaureate S</b> (scientific subjects, equivalent to A level)</heading>
+      <heading locale="fr">
+        <b>Baccalauréat série S</b> - option Mathématiques</heading>
+    </diploma>
+  </education>
+  <experiences>
+    <company>
+      <name locale="en">LesFurets.com, Paris, France</name>
+      <name locale="fr">LesFurets.com, Paris, France</name>
+      <date locale="en">2008 - present</date>
+      <date locale="fr">2008 - actuellement</date>
+      <description locale="en"><i>LesFurets.com</i> is the French leader of internet insurance comparison. The company is composed of 100 employees, including 35 ingenieers. The company is member of BGL Group since November 2010.</description>
+      <description locale="fr"><i>LesFurets.com</i> est le principal site français de comparaison d'assurance. La société est composée de 100 personnes dont 35 ingénieurs. <i>LesFurets.com</i> appartient à BGL Group depuis Novembre 2010.</description>
+      <position>
+        <date locale="en">May 2008<br/>present</date>
+        <date locale="fr">Mai 2008<br/>actuellement</date>
+        <positiontitle locale="en"><b>Lead architect at <i>LesFurets.com</i></b>, Paris.</positiontitle>
+        <positiontitle locale="fr"><b>Architecte Principal chez <i>LesFurets.com</i></b>, Paris.</positiontitle>
+      </position>
+      <keycontribution>
+        <heading locale="en">
+          <b>Designed and developed a insurance comparison web site <i>LesFurets.com</i></b><br/>
+          <i>LesFurets.com</i> allows to compare and subscribe insurance from 100 companies and more than 1000 products for car, bike, health, house and loan.
+          The website is used by 4 millions customers and deliver 3 millions quotes each year.
+        </heading>
+        <heading locale="fr">
+          <b>Conception et développement du site de comparaison d'assurance <i>LesFurets.com</i></b><br/>
+          <i>LesFurets.com</i> permet de comparer et de souscrire parmi 100 assureurs, plus de 1000 produits d'assurance en automobile, moto, santé, habitation et prêt.
+          Le site est utilisé par plus de 4 millions d'utilisateurs qui réalisent plus de 3 millions de tarifications chaque année.
+        </heading>
+      </keycontribution>
+      <keycontribution>
+        <heading locale="en">
+          <b>Created and developed the <a href="http://doov.io">dOOv</a> framework.</b><br/>
+          <a href="http://doov.io">dOOv</a> is an open source library that allows to write <b>type safe business rules</b> in Java or TypeScript DSL (Domain Specific Language).
+          Business rules are auditables in each production environnements by the business users in natural langage.
+        </heading>
+        <heading locale="fr">
+          <b>Création en développement du framework <a href="http://doov.io">dOOv</a>.</b><br/>
+          <a href="http://doov.io">dOOv</a> est un librairie open-source qui permet d'écrire dans un <b>DSL (Domain Specific Language) fortement typé</b> en Java ou TypeScript des règles métier.
+          Ces règles sont auditables en langage naturel par les utilisateurs métier dans les environnements de production.
+        </heading>
+      </keycontribution>
+      <keycontribution>
+        <heading locale="en">
+          <b>Methodology and developement process improvement</b><br/>
+          Introduced modular developement based on Java services, Apache Maven components,
+          data model governance and continuous delivery process that enable daily delivery of <i>LesFurets.com</i>.
+        </heading>
+        <heading locale="fr">
+          <b>Amélioration des méthodes et processus de développement</b><br/>
+          Introduction de developpements modularisés basés sur des services Java, des composants Apache Maven,
+          de la gouvernance de modèles de données et des processus de livraison continue qui permettent la livraison journalière du site <i>LesFurets.com</i>.
+        </heading>
+      </keycontribution>
+      <experience>
+        <date locale="en">July 2018<br/>present</date>
+        <date locale="fr">Juillet 2018<br/>actuellement</date>
+        <heading locale="en">
+          Lead front application architecture update based on <b>React/TypeScript</b>: migrate 3000 front business rules using <b>DSL</b> technologies and a <b>DDD</b> (Domain Driven Design) approach.<br/>
+          Rewrite in place the customer funnels and finally migrate all the business logic to the new React stack using a <a href="http://doov.io">dOOv</a> DSL.
+        </heading>
+        <heading locale="fr">
+          Nouvelle architecture des applications frontales basée sur <b>React/TypeScript</b> : migration de 3000 règles métier en utilisant un <b>DSL</b> et une approche <b>DDD</b> (Domain Driven Design).<br/>
+          Réécriture incrémentale des parcours client pour migrer toute la logique métier en utilisant un DSL <a href="http://doov.io">dOOv</a> vers les nouvelles applications basées sur React.
+        </heading>
+      </experience>
+      <experience>
+        <date locale="en">December 2017<br/>June 2018</date>
+        <date locale="fr">Décembre 2017<br/>Juin 2018</date>
+        <heading locale="en">
+          Lead the data encryption strategy: identify users PII (Personally Identifiable Information) of the data-flow and <b>encrypt PII using AES-256</b> at the application level.<br/>
+          Extract all the secrets of the continuous delivery pipeline and use <b>Hashicorp Vault</b> to distribute them in the staging and production environnements.
+        </heading>
+        <heading locale="fr">
+          Direction de la stratégie de chiffrement : identification des données personnelles dans le circuit de données et <b>chiffrement AES-256</b> au niveau applicatif.<br/>
+          Extraction des secrets de l'usine logicielle et utilisation de <b>Hashicorp Vault</b> pour distribuer les secrets dans les environnements de test et de production.
+        </heading>
+      </experience>
+      <experience>
+        <date locale="en">January 2014<br/>September 2017</date>
+        <date locale="fr">Janvier 2014<br/>Septembre 2017</date>
+        <heading locale="en">
+          Design and implement a new storage system based on the <b>Cassandra NoSQL distributed database</b> and <b>lambda architecture</b> concepts.<br/>
+          Fully rearchitecture the data-flow with micro-batch to allows real time data monitoring, BI and data history access of 3 millions quotes per year.
+        </heading>
+        <heading locale="fr">
+          Conception et réalisation d'un nouveau système de stockage basé sur <b>la base de données distribuée Cassandra</b> et des concepts de <b>lambda architecture</b>.<br/>
+          Nouvelle conception du circuit de données en utilisant des micro-batch pour permettre du monitoring, la BI en temps réel et un accès rapide à l'historique pour 3 millions de devis par an.
+        </heading>
+      </experience>
+      <experience>
+        <date locale="en">January 2012<br/>December 2013</date>
+        <date locale="fr">Janvier 2012<br/>Décembre 2013</date>
+        <heading locale="en">
+          Full redesign of the <b><i>LesFurets.com</i> client architecture based on MDD</b> (Model Driven Developpement).
+          The new frontend UI use a runtime modeling approach, code to code generation and annotation processing to enforce code reuse and readable code patterns.
+        </heading>
+        <heading locale="fr">
+          Nouvelle conception de l'<b>architecture cliente de <i>LesFurets.com</i> basée sur des concepts MDD</b> (Model Driven Developpement).
+          La nouvelle interface web utilise un modèle &quot;runtime&quot;, de la génération &quot;code to code&quot; et des annotations, pour améliorer la réutilisation et la lisibilité du code.
+        </heading>
+      </experience>
+      <conference>
+        <date locale="en">November 2011</date>
+        <date locale="fr">Novembre 2011</date>
+        <heading locale="en"><b>Devoxx</b> - Antwerp</heading>
+        <heading locale="fr"><b>Devoxx</b> - Anvers</heading>
+      </conference>
+      <experience>
+        <date locale="en">April 2011<br/>September 2011</date>
+        <date locale="fr">Avril 2011<br/>Septembre 2011</date>
+        <heading locale="en">
+          Implements a new design for the <b>branded web site <i>LesFurets.com</i></b> launch. The web site is based on the architecture of <i>Assuremieux.com</i>.
+        </heading>
+        <heading locale="fr">
+          Mise en place d'un nouveau design pour le <b>lancement de la marque <i>LesFurets.com</i></b>. Le nouveau site est basé sur l'architecture d'<i>Assuremieux.com</i>.
+        </heading>
+      </experience>
+      <conference>
+        <date locale="en">December 2010</date>
+        <date locale="fr">Décembre 2010</date>
+        <heading locale="en"><b>LeWeb</b> - Paris</heading>
+        <heading locale="fr"><b>LeWeb</b> - Paris</heading>
+      </conference>
+      <experience>
+        <date locale="en">November 2010</date>
+        <date locale="fr">Novembre 2010</date>
+        <heading locale="en"><b>BGL Group acquires Courtanet/Assuremieux</b> for 10 million euros.</heading>
+        <heading locale="fr"><b>Aquisition de Courtanet/Assuremieux</b> par BGL Group pour 10 millions d'euros.</heading>
+      </experience>
+      <conference>
+        <date locale="en">November 2010</date>
+        <date locale="fr">Novembre 2010</date>
+        <heading locale="en"><b>Devoxx</b> - Antwerp</heading>
+        <heading locale="fr"><b>Devoxx</b> - Anvers</heading>
+      </conference>
+      <experience>
+        <date locale="en">June 2010<br/>April 2011</date>
+        <date locale="fr">Juin 2010<br/>Avril 2011</date>
+        <heading locale="en">
+          <i>CreditMieux.com</i> design and developement: <b>loan comparaison service</b> based on existing software factory and frameworks with a new domain model.<br/>
+          Introduce <b>developement patterns with code generation using Java annotations</b> (data access, runtime configuration and integration tests).
+        </heading>
+        <heading locale="fr">
+          Conception et développement de <i>CreditMieux.com</i> : service de <b>comparaison de crédits à la consommation</b> basé sur l'usine logicielle et les composants existants avec un nouveau modèle métier.<br/>
+          Mise en place de <b>développement basés sur de la génération de code et des annotations Java</b> (accès au données, configuration de l'exécution et tests d'intégration).
+        </heading>
+      </experience>
+      <experience>
+        <date locale="en">March 2010<br/>May 2010</date>
+        <date locale="fr">Mars 2010<br/>Mai 2010</date>
+        <heading locale="en">
+          AssureMieux mobile for iPhone: <b>Mobile use case study</b> for <i>AssureMieux.com</i>, graphical design, <b>iPhone SDK application</b> and services architecture.
+        </heading>
+        <heading locale="fr">
+          AssureMieux mobile pour iPhone : étude du <b>cas d'utilisation de mobilité</b> pour <i>AssureMieux.com</i>, conception graphique, architecture et développement des services mobiles et d'une <b>application avec l'iPhone SDK</b>.
+        </heading>
+      </experience>
+      <conference>
+        <date locale="en">December 2009</date>
+        <date locale="fr">Décembre 2009</date>
+        <heading locale="en"><b>LeWeb</b> - Paris.</heading>
+        <heading locale="fr"><b>LeWeb</b> - Paris</heading>
+      </conference>
+      <conference>
+        <date locale="en">Jun 2009</date>
+        <date locale="fr">Juin 2009</date>
+        <heading locale="en"><b>JavaOne</b> - San Francisco.</heading>
+        <heading locale="fr"><b>JavaOne</b> - San Francisco.</heading>
+      </conference>
+      <experience>
+        <date locale="en">February 2009<br/>February 2010</date>
+        <date locale="fr">Février 2009<br/>Février 2010</date>
+        <heading locale="en">
+          <i>AssureMieux.com</i>: Improve the original service platform of BenefitWeb to integrate a <b>wide catalog of insurance products</b>.
+          <br/>
+          Designed the extensions of the platform to support subscription services for the products, custom web front and backoffice.
+          <br/>
+          Insurrance provider connections are based on <b>web service (Apache CXF) and XML RPC (Apache HttpClient)</b>.
+				</heading>
+        <heading locale="fr">
+          <i>AssureMieux.com</i> : Amélioration de la plateforme d'origine de BenefitWeb afin d'intégrer un <b>large catalogue de produits d'assurance grand public</b>.
+          <br/>
+          Conception des différentes extensions de la plateforme, permettant de supporter des services de souscription pour les assurances; site frontal spécifique et système de gestion des données clientes.
+          La connexion avec les assureurs est effectuée grâce à des <b>web services (Apache CXF) et des XML RPC (Apache HttpClient)</b>.
+        </heading>
+      </experience>
+      <experience>
+        <date locale="en">May 2008<br/>January 2009</date>
+        <date locale="fr">Mai 2008<br/>Janvier 2009</date>
+        <heading locale="en">
+          BenefitWeb SaaS: Designed and implements BenefitWeb platform. This platform is based on a custom Java / SOA - <b>Service Oriented Architecture - designed for high throughput</b>.
+          It makes the orchestration of products configuration and backend connexions, to provide quotations and products comparison.
+          <br/>
+          The platform is build on top of an insurance domain model and a <b>business rules framwork mixed of DRools 5 decision tables and Java</b>.
+          <br/>
+          Insurrance provider connections are based on web site <b>screen scrapping</b> (http and html text parsing).
+        </heading>
+        <heading locale="fr">
+          BenefitWeb SaaS : Conception et réalisation de la plateforme BenefitWeb. Cette plateforme est basée sur une <b>architecture de service Java conçue pour échanger des forts volumes de flux</b>.
+          Elle effectue l'orchestration de configuration produits et de connections à des services tiers, pour obtenir des comparaisons de tarifs d'assurance.
+          <br/>
+          La plateforme est basée sur un modèle de données pivot et des <b>règles métier écrites sous forme de tables de décision DRools 5 et de code Java</b>. La connexion avec les assureurs est effectuée grâce à du <b>parsing automatique de site web</b>.
+        </heading>
+      </experience>
+      <experience>
+        <date locale="en">May 2008<br/>September 2008</date>
+        <date locale="fr">Mai 2008<br/>Septembre 2008</date>
+        <heading locale="en">
+          <b>Insurance domain model</b>: Designed a clean data model based on JavaBeans, well sliced (core, car, bike, health and house), with XML annotation (JAXB 2) to generate modularized XML schemas, and UML models for documenting and governance.
+        </heading>
+        <heading locale="fr">
+          <b>Modèle de données pivot pour l'assurance</b> : Conception d'un modèle de données basé sur des JavaBeans, soigneusement modularisé (commun,  auto, moto, santé et habitation), annoté pour la génération de schémas XML (JAXB 2), et de modèles UML.
+        </heading>
+      </experience>
+    </company>
+    <company>
+      <name locale="en">Prima Solutions, Paris, France</name>
+      <name locale="fr">Prima Solutions, Paris, France</name>
+      <date locale="en">2004 - 2008</date>
+      <date locale="fr">2004 - 2008</date>
+      <description locale="en">Prima Solutions provides standard-based software to support incremental transformation of existing Insurance IT systems
+      into component-based Service Oriented Applications. The company is composed of 20 employees, world wide, including 6 R&amp;D engineers.</description>
+      <description locale="fr">Prima Solutions est un fournisseur de logiciels génériques pour la mise à jour incrémentale de système d'information dans 
+      le domaine de l'assurance.
+      La société est composée de 20 employés à travers le monde dont 6 ingénieurs R&amp;D</description>
+      <position>
+        <date locale="en">September 2004<br/>April 2008</date>
+        <date locale="fr">Septembre 2004<br/>Avril 2008</date>
+        <positiontitle locale="en"><b>Software architect at Prima Solutions</b>, Paris.</positiontitle>
+        <positiontitle locale="fr"><b>Architecte logiciel chez Prima Solutions</b>, Paris.</positiontitle>
+      </position>
+      <keycontribution>
+        <heading locale="en">
+          <b>Designed and developed Prima Repository 5.0 Foundation</b><br/>
+					Prima Repository provides an integrated suite of components that can be used to easily develop, deploy and manage SOA applications.
+					It organizes assets for business domains to ensure maintainability and component reuse to incrementally
+					build a repository of reusable services, based on legacy applications and new development.
+				</heading>
+        <heading locale="fr">
+          <b>Conception et développement des Prima Repository 5.0 foundations</b><br/>
+					  Prima Repository est une suite de composants intégrés utilisable pour développer, déployer ou gérer des applications SOA.
+					  Prima Repository permet d'organiser les différents composants par domaine métier, afin d'assurer leur maintenance et leur réutilisation 
+					  Il permet de construire de façon incrémentale des services basés sur des systèmes déjà existants ou sur de nouveaux développements.
+				</heading>
+      </keycontribution>
+      <keycontribution>
+        <heading locale="en">
+          <b>Designed and developed Prima IBCS 5.0 model tooling</b><br/>
+					Prima IBCS is an extensive insurance object model. It is the result of several years of R&amp;D by insurance experts and object oriented specialists.
+				</heading>
+        <heading locale="fr">
+          <b>Conception et développement d'outils MDA - Prima IBCS 5.0</b><br/>
+					Prima IBCS est un vaste modèle objet couvrant la plupart des domaines de l'assurance.
+					Il est le résultat de plusieurs années de R&amp;D par des experts en assurance et des spécialistes en modélisation-objet.
+				</heading>
+      </keycontribution>
+      <experience>
+        <date locale="en">March 2007<br/>April 2008</date>
+        <date locale="fr">Mars 2007<br/>Avril 2008</date>
+        <heading locale="en">
+					Maintenance releases of Prima Solutions products.<br/>
+					Prima IBCS 5.1: update to MagicDraw 15.5 and Mia Generation 5.2, added a new <b>semantic plugins</b> based on tag clouds (as editing paradigm for UML tagged values), and a <b>fulltext search plugin with treemap UI results</b> and tagging colors.<br/>
+					Prima Repository 5.1: third parties updates.
+        </heading>
+        <heading locale="fr">
+					Version de maintenance des produits Prima.<br/>
+					Prima IBCS 5.1 : mise à jour vers MagicDraw 15.5 et Mia Generation 5.2, création d'un nouveau <b>plugin sémantic</b> basé sur des nuages de tags (nouveau paradigme d'édition pour les 'tagged values' UML), et un <b>plugin de recherche textuelle avec visualisation des résultats dans des treemaps</b> et colorisation des tags.<br/>
+					Prima Repository 5.1 : mise à jour des librairies tiers.
+        </heading>
+      </experience>
+      <experience>
+        <date locale="en">February 2007<br/>July 2007</date>
+        <date locale="fr">Février 2007<br/>Juillet 2007</date>
+        <heading locale="en">
+					Migrated the Prima IBCS UML model from <b>UML 1.4 to UML 2.0 / EMF</b>.<br/>
+					The migration includes the rewriting of a code generator based on MIA Generation 5.0 and new <b>MagicDraw 12 validation plugins</b>.
+					Prima IBCS 5.0 has been greatly improved through a specific <b>dependency analysis tools</b>, detecting unintended references between UML packages.				
+				</heading>
+        <heading locale="fr">
+					Migration du modèle UML Prima IBCS de <b>UML 1.4 à UML 2.0 / EMF</b>.<br/>
+					La migration consiste à réécrire le générateur de code basé sur MIA Generation 5.0 et sur un nouveau <b>plugin de validation pour MagicDraw 12</b>.
+					Prima IBCS 5.0 a été largement amélioré grâce à un outil spécifique d'analyse de dépendances, conçu pour détecter les relations et références inappropriées entre packages UML.
+				</heading>
+      </experience>
+      <experience>
+        <date locale="en">December 2005<br/>January 2007</date>
+        <date locale="fr">Décembre 2005<br/>Janvier 2007</date>
+        <heading locale="en">
+					Redesigned and developed the new Prima Repository 5.0 based on Prima Platorm.<br/>
+					The redesign is based on the implementation of <b>a new repository API (JSR-170 inspired)</b>, a management model, a basic bootstrap mechanism
+					and <b>isolates clearly the design (asset editing) and runtime (BPM and	service engine) phases</b> of the software life cycle.<br/>
+					Data-persistence is completly updated through <b>high performance XML files and XML schemas</b>, to facilitate data exchange (import, export,
+					staging mechanism), editing forms, refresh and merging mechanism.
+					The Prima Repository 5.0 <b>integrates ILOG JRules 6.5</b>, thanks to a repository plugin and the Rule Execution Server.				
+				</heading>
+        <heading locale="fr">
+					Conception et réécriture du nouveau produit Prima Repository 5.0 basé sur Prima Platform.<br/>
+					Cette réécriture a consisté en la <b>création d'une API de repository (inspirée du JSR-170)</b>, d'un modèle de gestion technique, ainsi que d'un mécanisme de démarrage,
+					afin de <b>séparer au sein du logiciel, les fonctionnalités de conception (édition des éléments), et celles d'exécution (moteur de workflow et de service)</b>.<br/>
+					<b>La persistence des données du logiciel est basée sur des fichiers XML et des schémas XML</b>, afin de faciliter l'échange de données (import, export,
+					mécanismes de mise en production), le développement des formulaires d'édition de données, et les mécanismes de "merge".
+					Un mécanisme de plugin, conçu autour du "Rule Execution Server", permet l'intégration de <b>ILOG JRules 6.5</b>.
+				</heading>
+      </experience>
+      <conference>
+        <date locale="en">July 2006</date>
+        <date locale="fr">Juillet 2006</date>
+        <heading locale="en"><b>JavaOne</b> - San Francisco.</heading>
+        <heading locale="fr"><b>JavaOne</b> - San Francisco</heading>
+      </conference>
+      <experience>
+        <date locale="en">August 2005<br/>November 2005</date>
+        <date locale="fr">Août 2005<br/>Novembre 2005</date>
+        <heading locale="en">
+					Designed and developed the first <b>code generator</b> for Prima IBCS 4.2.<br/>
+					The main goal of the code generator feature was to normalise the UML model thanks to a Magicdraw 9.5 plugin and a <b>automated model cartography built in an Excel spreadsheet</b>.
+					The code generator is based on a <b>specific AndroMDA 3.2 cartridge</b>.
+				</heading>
+        <heading locale="fr">
+					Conception et développement du premier <b>générateur de code</b> de Prima IBCS 4.2.<br/>
+					La fonctionnalité de générateur de code a nécessité de normaliser le modèle UML grâce à un plugin développé pour MagicDraw 9.5 et une <b>cartographie automatique du modèle fonctionnant dans une feuille Excel</b>.
+					Le code générateur est écrit dans une <b>cartouche spécifique de AndroMDA 3.2</b>.
+				</heading>
+      </experience>
+      <experience>
+        <date locale="en">September 2004<br/>July 2005</date>
+        <date locale="fr">Septembre 2004<br/>Juillet 2005</date>
+        <heading locale="en">
+					Contributed to Prima Platform 4.x studio by improving <b>workflow editor usability</b> (drag and drop, validation panel, edition toolbar) based on ILOG JViews Component Suite.<br/>
+					developed a deployment <b>parameters mechanism to improve runtime staging</b> and a proof of concept of a <b>ILOG JRules 5.1 integration</b>.
+				</heading>
+        <heading locale="fr">
+					Contribution au studio de Prima Platform 4.x en améliorant l'<b>ergonomie de l'éditeur de workflow</b> (glisser/déposer, panneau de validation, barre d'outil d'édition) basé sur ILOG JViews Component Suite.<br/>
+					Développement d'un <b>mécanisme de paramétrage pour la mise en production</b>, et d'un prototype d'<b>intégration de ILOG JRules 5.1</b>.
+				</heading>
+      </experience>
+    </company>
+    <company>
+      <name locale="en">ILOG, Paris, France</name>
+      <name locale="fr">ILOG, Paris, France</name>
+      <date locale="en">2000 - 2008</date>
+      <date locale="fr">2000 - 2008</date>
+      <description locale="en">ILOG is a software vendor of enterprise-class software components and services. The company is composed of 650 employees, world wide, including more than 150 R&amp;D engineers.</description>
+      <description locale="fr">ILOG est l'un des leaders mondiaux des composants logiciels d'entreprise et de services associés. La société est composée de 650 employés à travers le monde dont plus de 150 ingénieurs R&amp;D</description>
+      <position>
+        <date locale="en">February 2003<br/>August 2004</date>
+        <date locale="fr">Février 2003<br/>Août 2004</date>
+        <positiontitle locale="en"><b>Senior software engineer at ILOG</b>, Paris.</positiontitle>
+        <positiontitle locale="fr"><b>Ingénieur logiciel senior chez ILOG</b>, Paris.</positiontitle>
+        <heading locale="en">
+          Member of the <b>Enterprise Integration</b> development team of the <b>JRules</b> product. JRules is a rules development suite composed of an engine and a development kit.</heading>
+        <heading locale="fr">
+          Membre de l’équipe de développement <b>Enterprise Integration</b> du produit <b>JRules</b>. JRules est une suite de développement de règles composée d’un moteur et d’un environnement de développement.</heading>
+      </position>
+      <position>
+        <date locale="en">December 2000<br/>February 2003</date>
+        <date locale="fr">Décembre 2000<br/>Février 2003</date>
+        <positiontitle locale="en"><b>Software engineer at ILOG</b>, Paris.</positiontitle>
+        <positiontitle locale="fr"><b>Ingénieur logiciel chez ILOG</b>, Paris.</positiontitle>
+        <heading locale="en">
+          Member of the development team of the <b>JViews Component Suite</b>. JViews is a set of graphical components on top of Java2D including charts, Gantt chart and grapher with advanced graph layout capabilities.</heading>
+        <heading locale="fr">
+          Membre de l’équipe de développement du produit <b>JViews Component Suite</b>. JViews est un ensemble de composants graphiques basés sur Java2D, cette suite inclut des graphes 2D, des graphes de Gantt et un composant d’édition de graphes comportant des fonctions avancées de disposition automatique.</heading>
+      </position>
+      <keycontribution>
+        <heading locale="en">
+          <b>Designed and developed the BRES - Business Rules Exection Server</b><br/>
+          This application is part of JRules 5.0. This server-side application is a J2EE integration of JRules.
+          It is based on JCA and JMX and allows deploying, executing and monitoring of business rules.
+        </heading>
+        <heading locale="fr">
+          <b>Conception et développement du BRES - Business Rules Exection Server</b><br/>
+          Cette application est intégrée dans le produit à partir de la version 5.0.
+          Cette application serveur est une intégration avancée de JRules dans l'environnement J2EE.
+          Elle est basée sur JMX et JCA et permet le déploiement, l'exécution et le monitoring des règles.
+        </heading>
+      </keycontribution>
+      <keycontribution>
+        <heading locale="en">
+          <b>Designed and developed the JViews Workflow Modeler</b><br/>
+          This application has been introduced in JViews 4.0 and packaged in a specific distribution named JViews for Workflow.<br/>
+          This editor allows you to edit workflow diagrams described in XML. The modeler is a generic application that is fully customizable through a documented API and XML settings.</heading>
+        <heading locale="fr">
+          <b>Conception et développement du JViews Workflow Modeler</b><br/>
+          Cette application a été introduite dans le produit à partir de la version 4.0 et possède une distribution spécifique nommée JViews for Workflow.<br/>
+          Cet éditeur permet l’édition de diagrammes de workflow décrit en XML. Le modeler est une application générique avec de nombreuses customisations possibles grâce à une API documentée et des fichiers de paramétrage en XML.
+        </heading>
+      </keycontribution>
+      <keycontribution>
+        <heading locale="en">
+          <b>Designed a light document/view framework</b> for developing applications that display diagrams.
+        </heading>
+        <heading locale="fr">
+          <b>Conception d’une librairie document/vue simple</b> pour le développement d’application d’affichage de diagrammes.
+        </heading>
+      </keycontribution>
+      <keycontribution>
+        <heading locale="en">
+          <b>Developed and packaged a set of code sample demos</b> to show the features of a Java MVC component named SDM (Stylable Data Mapper). This component allows displaying and editing of diagrams.
+        </heading>
+        <heading locale="fr">
+          <b>Développement et packaging  de plusieurs exemples de code</b> qui montrent les différentes fonctionnalités d’un composant MVC nommé SDM (Stylable Data Mapper). Ce composant permet l’affichage et l’édition de diagrammes.
+        </heading>
+      </keycontribution>
+      <keycontribution>
+        <heading locale="en">
+          <b>Updated and maintained the use of Apache Ant and Apache Tomcat
+          </b> in the JViews distribution (including the build and deployment scripts).
+        </heading>
+        <heading locale="fr">
+          <b>Support et maintenance de l’utilisation de Apache Ant et Apache Tomcat
+          </b> dans la distribution de JViews (scripts de compilation et de déploiement).
+        </heading>
+      </keycontribution>
+      <conference>
+        <date locale="en">July 2004</date>
+        <date locale="fr">Juillet 2004</date>
+        <heading locale="en"><b>JavaOne</b> - San Francisco</heading>
+        <heading locale="fr"><b>JavaOne</b> - San Francisco</heading>
+      </conference>
+      <experience>
+        <date locale="en">January 2004<br/>August 2004</date>
+        <date locale="fr">Janvier 2004<br/>Août 2004</date>
+        <heading locale="en">Designed and developed the <b>security and the clustering management of the BRES</b>. Implemented the <b>JASS security</b> of the BRES model and the distribution of the <b>JMX MBeans in J2EE clusters</b> of BEA Weblogic 8 and IBM Websphere 5.</heading>
+        <heading locale="fr">Conception et développement de la <b>sécurité et de la gestion du BRES dans les environnements distribués</b>. Mise en oeuvre de <b>sécurité JASS</b> dans le model du BRES et <b>utilisation de JMX dans les clusters J2EE</b> de BEA Weblogic 8 et IBM Websphere 5.</heading>
+      </experience>
+      <experience>
+        <date locale="en">June 2003<br/>December 2003</date>
+        <date locale="fr">Juin 2003<br/>Décembre 2003</date>
+        <heading locale="en">Designed and developed the <b>management model and the web console of the BRES</b>. This console allows you to manage the BRES JMX model from a web browser.</heading>
+        <heading locale="fr">Conception et développement du <b> modèle de management et de la console web du BRES</b>. Cette console permet de gérer le modèle JMX du BRES depuis un navigateur internet.</heading>
+      </experience>
+      <conference>
+        <date locale="en">June 2003</date>
+        <date locale="fr">Juin 2003</date>
+        <heading locale="en"><b>JavaOne</b> - San Francisco</heading>
+        <heading locale="fr"><b>JavaOne</b> - San Francisco</heading>
+      </conference>
+      <experience>
+        <date locale="en">March 2003</date>
+        <date locale="fr">Mars 2003</date>
+        <heading locale="en">Designed and developed a <b>proof of concept on rules execution monitoring</b>. The demo shows how to integrate alarms and KPI in the ILOG JRules engine using the <b>JMX technology</b>.</heading>
+        <heading locale="fr">Conception et développement d’un <b>prototype de monitoring d’exécution de règles</b>. La démonstration montre comment intégrer des alarmes et des indicateurs de performance lors de l’exécution du moteur de règles JRules grâce à l'<b>utilisation de JMX</b>.</heading>
+      </experience>
+      <conference>
+        <date locale="en">December 2002</date>
+        <date locale="fr">Décembre 2002</date>
+        <heading locale="en">Training on the <b>.net framework</b> at Valtech</heading>
+        <heading locale="fr">Formation au <b>framework .net</b>, Valtech</heading>
+      </conference>
+      <conference>
+        <date locale="en">March 2002</date>
+        <date locale="fr">Mars 2002</date>
+        <heading locale="en"><b>JavaOne</b> - San Francisco</heading>
+        <heading locale="fr"><b>JavaOne</b> - San Francisco</heading>
+      </conference>
+      <experience>
+        <date locale="en">March 2002</date>
+        <date locale="fr">Mars 2002</date>
+        <heading locale="en">Developed a prototype of a <b>connector to provide runtime-monitoring views of a business process running in the Versata Interaction Server</b> (workflow engine from Versata). The prototype was shown at the JavaOne 2002 Conference.</heading>
+        <heading locale="fr">Conception et développement d’un prototype de connecteur qui permet d’obtenir des écrans de supervision sur l’exécution du moteur de workflow VIS (Versata Interaction Server). Le prototype a été montré à la conférence JavaOne 2002.</heading>
+      </experience>
+      <experience>
+        <date locale="en">February 2002</date>
+        <date locale="fr">Février 2002</date>
+        <heading locale="en">Developed a demonstration of a <b>wireless application based on maps and routing computation</b>. Implemented a <b>J2ME/MIDP cell phone client and a J2EE application</b> for displaying routes on a San Francisco map. The demonstration was shown at the JavaOne 2002 Conference.</heading>
+        <heading locale="fr">Conception et développement d’une <b>application nomade</b> basée sur de la cartographie et des calculs d’itinéraires. Développement d’un <b>client pour téléphone mobile J2ME/MIDP et d’une application serveur J2EE</b> pour afficher des itinéraires dans San Francisco. L'application a été montrée à la conférence JavaOne 2002.</heading>
+      </experience>
+      <experience>
+        <date locale="en">December 2001</date>
+        <date locale="fr">Décembre 2001</date>
+        <heading locale="en">Developed a <b>thin-client workflow-monitoring</b> cockpit based on the JViews DHTML library. Implemented DHTML table and inspector components linked to a server side data model. The demonstration is visible on the JViews web site.</heading>
+        <heading locale="fr">Conception et développement d’un <b>client léger de supervision de workflow</b> basé sur la librairie DHTML de JViews. Implémentation de composants de table et d’inspecteur DHTML connectés à un modèle de données serveur. L'application est visible sur le site web de JViews.</heading>
+      </experience>
+    </company>
+  </experiences>
+  <speaker>
+      <confspeaker>
+        <date locale="en">September 2019</date>
+        <date locale="fr">Septembre 2019</date>
+        <conftitle locale="en">How to Share the Business Logic in a Polyglot App Mixing Java and TypeScript</conftitle>
+        <conftitle locale="fr">How to Share the Business Logic in a Polyglot App Mixing Java and TypeScript</conftitle>
+        <location locale="en">
+          <b>Oracle Code One</b> [BOF3570] - <i>San Francisco</i>
+        </location>
+        <location locale="fr">
+          <b>Oracle Code One</b> [BOF3570] - <i>San Francisco</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">June 2019</date>
+        <date locale="fr">Juin 2019</date>
+        <conftitle locale="en">Application Secrets Deployment: Hashicorp Vault and the continuous delivery</conftitle>
+        <conftitle locale="fr">Déploiement de vos secrets applicatifs : Hashicorp Vault et la livraison en continu</conftitle>
+        <location locale="en">
+          <b>Open R&amp;Day</b> - <i>Paris</i>
+        </location>
+        <location locale="fr">
+          <b>Open R&amp;Day</b> - <i>Paris</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">
+          April 2019<br/>
+          October 2018
+        </date>
+        <date locale="fr">
+          Avril 2019<br/>
+          Octobre 2018
+        </date>
+        <conftitle locale="en">How to Create a Fluent API DSL with Lambda Builders</conftitle>
+        <conftitle locale="fr">How to Create a Fluent API DSL with Lambda Builders</conftitle>
+        <location locale="en">
+          <b>Oracle Code</b> - <i>Roma</i><br/>
+          <b>Oracle Code One</b> [BOF5129] - <i>San Francisco</i>
+        </location>
+        <location locale="fr">
+          <b>Oracle Code</b> - <i>Rome</i><br/>
+          <b>Oracle Code One </b> [BOF5129] - <i>San Francisco</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">
+          July 2018<br/>
+          June 2018<br/>
+          April 2018<br/><br/>
+          October 2017
+        </date>
+        <date locale="fr">
+          Juillet 2018<br/>
+          Juin 2018<br/>
+          Avril 2018<br/><br/>
+          Octobre 2017
+        </date>
+        <conftitle locale="en">DSL.using(Java).toGoBeyond(BeanValidation);</conftitle>
+        <conftitle locale="fr">DSL.using(Java).toGoBeyond(BeanValidation);</conftitle>
+        <location locale="en">
+          <b>Oracle Code</b> - <i>Paris</i><br/>
+          <b>Open R&amp;Day</b> - <i>Paris</i><br/>
+          <b>JDK.io</b> - <i>Copenhagen</i><br/>
+          <b>Ippon BBL</b> - <i>Paris</i><br/>
+          <b>SoftShake</b> - <i>Geneva</i>
+        </location>
+        <location locale="fr">
+          <b>Oracle Code</b> - <i>Paris</i><br/>
+          <b>Open R&amp;Day</b> - <i>Paris</i><br/>
+          <b>JDK.io</b> - <i>Copenhague</i><br/>
+          <b>Ippon BBL</b> - <i>Paris</i><br/>
+          <b>SoftShake</b> - <i>Genève</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">June 2018</date>
+        <date locale="fr">Juin 2018</date>
+        <conftitle locale="en">Goto Cassandra in 40 minutes</conftitle>
+        <conftitle locale="fr">Goto Cassandra in 40 minutes</conftitle>
+        <location locale="en">
+          <b>Cassandra Meetup</b> - <i>Paris</i>
+        </location>
+        <location locale="fr">
+          <b>Cassandra Meetup</b> - <i>Paris</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">
+          June 2017<br/>
+          March 2017<br/>
+          January 2017<br/>
+          October 2016<br/>
+          June 2016<br/><br/><br/>
+          March 2016<br/>
+          January 2016<br/>
+          October 2015
+        </date>
+        <date locale="fr">
+          Juin 2017<br/>
+          Mars 2017<br/>
+          Janvier 2017<br/>
+          Octobre 2016<br/>
+          Juin 2016<br/><br/><br/>
+          Mars 2016<br/>
+          Janvier 2016<br/>
+          Octobre 2015
+        </date>
+        <conftitle locale="en">DomainModel().stream()</conftitle>
+        <conftitle locale="fr">DomainModel().stream()</conftitle>
+        <location locale="en">
+          <b>Open R&amp;Day</b> - <i>Paris</i><br/>
+          <b>Meta Conference</b> - <i>Peterborough</i><br/>
+          <b>Breizh JUG</b> - <i>Rennes</i><br/>
+          <b>Mars JUG</b> - <i>Marseille</i><br/>
+          <b>Geneva JUG</b><br/>
+          <b>Paris JUG</b><br/>
+          <b>Chti JUG</b> - <i>Lille</i><br/>
+          <b>Alpes JUG</b> - <i>Grenoble</i><br/>
+          <b>Tours JUG</b><br/>
+          <b>SoftShake</b> - <i>Geneva</i>
+        </location>
+        <location locale="fr">
+          <b>Open R&amp;Day</b> - <i>Paris</i><br/>
+          <b>Meta Conférence</b> - <i>Peterborough</i><br/>
+          <b>Breizh JUG</b> - <i>Rennes</i><br/>
+          <b>Mars JUG</b> - <i>Marseille</i><br/>
+          <b>Geneva JUG</b><br/>
+          <b>Paris JUG</b><br/>
+          <b>Chti JUG</b> - <i>Lille</i><br/>
+          <b>Alpes JUG</b> - <i>Grenoble</i><br/>
+          <b>Tours JUG</b><br/>
+          <b>SoftShake</b> - <i>Genève</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">
+          March 2017<br/>
+          April 2016
+        </date>
+        <date locale="fr">
+          Mars 2017<br/>
+          Avril 2016
+        </date>
+        <conftitle locale="en">Lambda Architecture at LesFurets.com</conftitle>
+        <conftitle locale="fr">Lambda Architecture at LesFurets.com</conftitle>
+        <location locale="en">
+          <b>Meta Conference</b> - <i>Peterborough</i><br/>
+          <b>Ippon Master Class</b> - <i>Paris</i>
+        </location>
+        <location locale="fr">
+          <b>Meta Conference</b> - <i>Peterborough</i><br/>
+          <b>Ippon Master Class</b> - <i>Paris</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">April 2013</date>
+        <date locale="fr">Avril 2013</date>
+        <conftitle locale="en">Rock solid UI modeling using annotation processing</conftitle>
+        <conftitle locale="fr">Rock solid UI modeling using annotation processing</conftitle>
+        <location locale="en">
+          <b>CodeGeneration</b> - <i>Cambridge</i>
+        </location>
+        <location locale="fr">
+          <b>CodeGeneration</b> - <i>Cambridge</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">March 2013</date>
+        <date locale="fr">Mars 2013</date>
+        <conftitle locale="en">Smart use of annotation processing</conftitle>
+        <conftitle locale="fr">Smart use of annotation processing</conftitle>
+        <location locale="en">
+          <b>Paris JUG</b>
+        </location>
+        <location locale="fr">
+          <b>Paris JUG</b>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">October 2012</date>
+        <date locale="fr">Octobre 2012</date>
+        <conftitle locale="en">Multi device Content Display and a Smart Use of Annotation Processing</conftitle>
+        <conftitle locale="fr">Multi device Content Display and a Smart Use of Annotation Processing</conftitle>
+        <location locale="en">
+          <b>JavaOne</b> [CON11234] - <i>San Francisco</i>
+          </location>
+        <location locale="fr">
+          <b>JavaOne</b> [CON11234] - <i>San Francisco</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">June 2012</date>
+        <date locale="fr">Juin 2012</date>
+        <conftitle locale="en">DevOps story - Application configuration jungle</conftitle>
+        <conftitle locale="fr">DevOps illustré - la jungle de la configuration d'une application</conftitle>
+        <location locale="en">
+          <b>Paris DevOps User Group</b>
+        </location>
+        <location locale="fr">
+          <b>Paris DevOps User Group</b>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">June 2012</date>
+        <date locale="fr">Juin 2012</date>
+        <conftitle locale="en">APT - Annotation Processing Tool in a nutshell</conftitle>
+        <conftitle locale="fr">Tutoriel sur APT - Annotation Processing Tool</conftitle>
+        <location locale="en">
+          <b>BreizhCamp</b> - <i>Rennes</i>
+        </location>
+        <location locale="fr">
+          <b>BreizhCamp</b> - <i>Rennes</i>
+        </location>
+      </confspeaker>
+      <confspeaker>
+        <date locale="en">April 2012</date>
+        <date locale="fr">Avril 2012</date>
+        <conftitle locale="en">DevOps story - Application configuration jungle</conftitle>
+        <conftitle locale="fr">DevOps illustré - la jungle de la configuration d'une application</conftitle>
+        <location locale="en">
+          <b>Devoxx France</b> - <i>Paris</i>
+        </location>
+        <location locale="fr">
+          <b>Devoxx France</b> - <i>Paris</i>
+        </location>
+      </confspeaker>
+  </speaker>
+  <computerskills>
+    <skills>
+      <title locale="en">Programming languages</title>
+      <title locale="fr">Langages de Programmation</title>
+      <subject>Java (J2SE/J2EE/MIDP)</subject>
+      <subject>C - C++</subject>
+      <subject>Corba</subject>
+      <subject>SQL</subject>
+      <subject>Prolog III</subject>
+    </skills>
+    <skills>
+      <title locale="en">Scripting languages and web</title>
+      <title locale="fr">Langages de script et web</title>
+      <subject>Unix shell</subject>
+      <subject>HTML - CGI</subject>
+      <subject>ASP - Servlet</subject>
+      <subject>Javascript - AJAX</subject>
+    </skills>
+    <skills>
+      <title locale="en">XML technologies</title>
+      <title locale="fr">Technologies XML</title>
+      <subject>XML Schemas</subject>
+      <subject>XSLT</subject>
+      <subject>XPath</subject>
+      <subject>RDF</subject>
+      <subject>CSS</subject>
+    </skills>
+    <skills>
+      <title locale="en">Network</title>
+      <title locale="fr">Réseau</title>
+      <subject>TCP-IP</subject>
+      <subject>ASN-1</subject>
+      <subject>Ethernet</subject>
+      <subject>SNMP</subject>
+    </skills>
+  </computerskills>
+  <languagelist>
+    <language>
+      <name locale="en">French</name>
+      <level locale="en">Native language</level>
+    </language>
+    <language>
+      <name locale="en">English</name>
+      <name locale="fr">Anglais</name>
+      <level locale="en">Fluent</level>
+      <level locale="fr">lu, écrit, parlé</level>
+    </language>
+    <language>
+      <name locale="en">German</name>
+      <name locale="fr">Allemand</name>
+      <level locale="en">Conversational</level>
+      <level locale="fr">Niveau baccalauréat</level>
+    </language>
+  </languagelist>
+  <micellaneous>
+    <experience>
+      <date locale="en">July 2000</date>
+      <date locale="fr">Juillet 2000</date>
+      <heading locale="en">
+        <b>First prize at the start-up creation contest &quot;GraineDeStartUp&quot;</b>. Submitted project: The &quot;Purchase Companion of AllYourPurchases.com&quot; (English translation for &quot;Compagnon d'achats de TousVosAchats.com&quot;), based on a customer personal assistant with advanced integrated features for Internet shopping.</heading>
+      <heading locale="fr">
+        <b>Premier prix du concours de création de start-up &quot;GraineDeStartUp&quot;</b>. Projet présenté : Le Compagnon d'Achats de &quot;TousVosAchats.com&quot;, basé sur un client personnel d'aide à l'achat avec des fonctionnalités avancées pour le E-Commerce.</heading>
+    </experience>
+  </micellaneous>
+  <personal locale="en">Photography, video recording and sports (especially mountain biking).</personal>
+  <personal locale="fr">Photographie, vidéo, cinéma, infographie, VTT.</personal>
+</resume>
