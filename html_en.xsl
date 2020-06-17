@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
-	<xsl:variable name="width">650</xsl:variable>
+	<xsl:variable name="width">700</xsl:variable>
 	<xsl:template match="/">
 		<html>
 			<head>
-				<title>Resume - <xsl:value-of select="/resume/firstname"/>
+				<title>Resume - <xsl:value-of select="//resume/firstname"/>
 					<xsl:text> </xsl:text>
-					<xsl:value-of select="/resume/lastname"/>
+					<xsl:value-of select="//resume/lastname"/>
 				</title>
-				<link href="cv_en.css" rel="stylesheet"/>
+				<link href="style.css" rel="stylesheet"/>
 			</head>
 			<body>
 				<div class="page">
 					<center>
-						<xsl:apply-templates select="/resume"/>
-						<xsl:apply-templates select="/resume/objective[@locale='en']"/>
-						<xsl:apply-templates select="/resume/experiences"/>
-						<xsl:apply-templates select="/resume/speaker"/>
-						<xsl:apply-templates select="/resume/education"/>
-						<!-- <xsl:apply-templates select="/resume/computerskills"/> -->
-						<xsl:apply-templates select="/resume/languagelist"/>
-						<!-- <xsl:apply-templates select="/resume/micellaneous"/> -->
-						<xsl:apply-templates select="/resume/personal[@locale='en']"/>
+						<xsl:apply-templates select="//resume"/>
+						<xsl:apply-templates select="//resume/objective[@locale='en']"/>
+						<xsl:apply-templates select="//resume/experiences"/>
+						<xsl:apply-templates select="//resume/speaker"/>
+						<xsl:apply-templates select="//resume/education"/>
+						<!-- <xsl:apply-templates select="//resume/computerskills"/> -->
+						<xsl:apply-templates select="//resume/languagelist"/>
+						<!-- <xsl:apply-templates select="//resume/micellaneous"/> -->
+						<xsl:apply-templates select="//resume/personal[@locale='en']"/>
 					</center>
 				</div>
 			</body>
@@ -35,24 +35,24 @@
 				<td>
 					<div class="address">
 						<b>
-							<xsl:value-of select="/resume/firstname"/>
+							<xsl:value-of select="//resume/firstname"/>
 							<xsl:text> </xsl:text>
-							<xsl:value-of select="/resume/lastname"/>
+							<xsl:value-of select="//resume/lastname"/>
 						</b>
 					</div>
 					<div class="address-sub">
-						<xsl:value-of select="/resume/address/street"/>
+						<xsl:value-of select="//resume/address/street"/>
 						<br/>
-						<xsl:value-of select="/resume/address/zipcode"/>
+						<xsl:value-of select="//resume/address/zipcode"/>
 						<xsl:text> </xsl:text>
-						<xsl:value-of select="/resume/address/city"/>
+						<xsl:value-of select="//resume/address/city"/>
 					</div>
 				</td>
 				<td>
 					<div class="tablecellright">
 						<xsl:text>phone: </xsl:text>
-						<xsl:apply-templates select="/resume/phonelist"/>
-						<xsl:variable name="email" select="/resume/email"/>
+						<xsl:apply-templates select="//resume/phonelist"/>
+						<xsl:variable name="email" select="//resume/email"/>
 						<xsl:text>email: </xsl:text>
 						<a href="$email">
 							<xsl:value-of select="$email"/>
@@ -63,13 +63,13 @@
 		</table>
 	</xsl:template>
 	<xsl:template match="phonelist">
-		<xsl:for-each select="number">
+		<xsl:for-each select="number[@locale='en']">
 			<xsl:value-of select="."/>
 			<br/>
 		</xsl:for-each>
 	</xsl:template>
 	<xsl:template match="objective">
-		<table>
+		<table class="objective">
 			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<tr>
 				<td>
@@ -81,16 +81,16 @@
 		</table>
 	</xsl:template>
 	<xsl:template match="education">
-		<table>
+		<table class="education">
 			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<tr>
 				<td>
-					<div class="title">Education</div>
+					<div class="title_1">Education</div>
 				</td>
 			</tr>
 		</table>
-		<table>
-			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
+		<table class="diploma">
+			<xsl:attribute name="width"><xsl:value-of select="$width - 50"/></xsl:attribute>
 			<xsl:apply-templates select="diploma"/>
 		</table>
 	</xsl:template>
@@ -109,16 +109,16 @@
 		</tr>
 	</xsl:template>
 	<xsl:template match="experiences">
-		<table>
+		<table class="experiences">
 			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<tr>
 				<td>
-					<div class="title">Experience</div>
+					<div class="title_1">Experience</div>
 				</td>
 			</tr>
 		</table>
 		<table class="position">
-			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
+			<xsl:attribute name="width"><xsl:value-of select="$width - 50"/></xsl:attribute>
 			<xsl:apply-templates select="company/position"/>
 		</table>
 		<xsl:apply-templates select="company"/>
@@ -129,7 +129,7 @@
 			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<tr>
 				<td>
-					<div class="titleright">
+					<div class="title_2">
 						<div class="companyname">
 							<xsl:value-of select="$name"/>
 							&#160;&#160;
@@ -147,23 +147,27 @@
 		<ul class="keycontribution">
 			<xsl:apply-templates select="keycontribution"/>
 		</ul>
+		<!--
 		<xsl:if test="count(experience)>0">
 			<table class="experience-title">
 				<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 				<tr>
 					<td>
-						<div class="titleright">
+						<div class="title_3">
 							<b>Contributions by order</b>
 						</div>
 					</td>
 				</tr>
 			</table>
 		</xsl:if>
+		-->
 		<table class="experience">
 			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
-			<xsl:apply-templates select="experience"/>
+			<xsl:apply-templates select="experience[not(@visible='false')]"/>
 		</table>
-		<div class="pagebreak"/>
+		<xsl:if test="not(position()=2)">
+			<div class="pagebreak"/>
+		</xsl:if>
 	</xsl:template>
 	<xsl:template match="keycontribution">
 		<li class="keycontribution">
@@ -174,17 +178,19 @@
 	</xsl:template>
 	<xsl:template match="position">
 		<tr>
-			<td class="positiondate">
-				<div class="date">
-					<xsl:copy-of select="date[@locale='en']"/>
-				</div>
-			</td>
-			<td>
+			<td class="positiondesc">
 				<div class="positiontitle">
 					<xsl:copy-of select="positiontitle[@locale='en']"/>
-				</div>
-				<div class="positiondesc">
-					<xsl:copy-of select="heading[@locale='en']"/>
+					<br/>
+					<font>
+						<xsl:attribute name="size">-2</xsl:attribute>
+						<xsl:copy-of select="date[@locale='en']"/>
+					</font>
+					<br/>
+					<font>
+						<xsl:attribute name="size">-1</xsl:attribute>
+						<xsl:copy-of select="heading[@locale='en']"/>
+					</font>
 				</div>
 			</td>
 		</tr>
@@ -205,11 +211,11 @@
 	</xsl:template>
 	<xsl:template match="speaker">
 		<xsl:if test="count(confspeaker)>0">
-			<table>
+			<table class="speaker">
 				<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 				<tr>
 					<td>
-						<div class="titleright">
+						<div class="title_1">
 							<b>Conferences speaker</b>
 						</div>
 					</td>
@@ -217,7 +223,7 @@
 			</table>
 		</xsl:if>
 		<table class="confspeaker">
-			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
+			<xsl:attribute name="width"><xsl:value-of select="$width - 50"/></xsl:attribute>
 			<xsl:apply-templates select="confspeaker"/>
 		</table>
 		<div class="pagebreak"/>
@@ -255,11 +261,11 @@
 		</tr>
 	</xsl:template>
 	<xsl:template match="computerskills">
-		<table>
+		<table class="computerskills">
 			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<tr>
 				<td>
-					<div class="title">Computer and language skills</div>
+					<div class="title_1">Computer and language skills</div>
 				</td>
 			</tr>
 		</table>
@@ -293,61 +299,55 @@
 		</dt>
 	</xsl:template>
 	<xsl:template match="languagelist">
-		<table>
+		<table class="languagelist">
 			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<tr>
 				<td>
-					<div class="title">Languages</div>
+					<div class="title_1">Languages</div>
 				</td>
 			</tr>
 		</table>
-		<table>
-			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
+		<table class="language">
+			<xsl:attribute name="width"><xsl:value-of select="$width - 50"/></xsl:attribute>
 			<xsl:apply-templates select="language"/>
 		</table>
 	</xsl:template>
 	<xsl:template match="language">
 		<tr>
 			<td class="language">
-				<div class="tablecellleft">
+				<div class="language">
 					<xsl:value-of select="name[@locale='en']"/>
 				</div>
 			</td>
 			<td>
-				<div class="language">
+				<div class="languagelevel">
 					<xsl:value-of select="level[@locale='en']"/>
 				</div>
 			</td>
 		</tr>
 	</xsl:template>
 	<xsl:template match="micellaneous">
-		<table>
+		<table class="micellaneous">
 			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<tr>
 				<td>
-					<div class="title">Micellaneous</div>
+					<div class="title_1">Micellaneous</div>
 				</td>
 			</tr>
-		</table>
-		<table>
-			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<xsl:apply-templates select="experience"/>
 		</table>
 	</xsl:template>
 	<xsl:template match="personal">
-		<table>
+		<table class="personal">
 			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<tr>
 				<td>
-					<div class="title">Personal</div>
+					<div class="title_1">Personal</div>
 				</td>
 			</tr>
-		</table>
-		<table>
-			<xsl:attribute name="width"><xsl:value-of select="$width"/></xsl:attribute>
 			<tr>
 				<td>
-					<div class="tablecellleft">
+					<div class="personal">
 						<xsl:value-of select="."/>
 					</div>
 				</td>

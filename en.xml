@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="html_en.xsl"?>
+<!DOCTYPE document [
+<!ENTITY cv SYSTEM "resume.xml">
+]>
+<document>
+&cv;
+</document>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="html_en.xsl"?>
 <resume>
   <firstname>Gilles</firstname>
   <lastname>DI GUGLIELMO</lastname>
@@ -10,7 +9,8 @@
     <country>France</country>
   </address>
   <phonelist>
-    <number>+33 6 75 70 29 58</number>
+    <number locale="en">+33 6 75 70 29 58</number>
+    <number locale="fr">06 75 70 29 58</number>
   </phonelist>
   <email>gdigugli@gmail.com</email>
   <objective locale="en">Technical leader and software architect position<br/>Design and implementation of large IT applications</objective>
@@ -46,71 +46,114 @@
   <experiences>
     <company>
       <name locale="en">LesFurets.com, Paris, France</name>
-      <name locale="fr">LesFurets.com, Paris, France</name>
+      <name locale="fr">LesFurets.com, Paris</name>
       <date locale="en">2008 - present</date>
       <date locale="fr">2008 - actuellement</date>
-      <description locale="en"><i>LesFurets.com</i> is the French leader of internet insurance comparison. The company is composed of 100 employees, including 35 ingenieers. The company is member of BGL Group since November 2010.</description>
-      <description locale="fr"><i>LesFurets.com</i> est le principal site français de comparaison d'assurance. La société est composée de 100 personnes dont 35 ingénieurs. <i>LesFurets.com</i> appartient à BGL Group depuis Novembre 2010.</description>
+      <description locale="en">
+        <i>LesFurets.com</i> is the French leader of internet insurance comparison.
+        The company is composed of 100 employees, including 35 engineers.
+        <i>LesFurets.com</i> has been part of BGL Group since November 2010.
+      </description>
+      <description locale="fr">
+        <i>LesFurets.com</i> est le principal site français de comparaison d'assurance.
+        La société est composée de 100 personnes dont 35 ingénieurs.
+        <i>LesFurets.com</i> fait partie du groupe BGL depuis Novembre 2010.
+      </description>
       <position>
-        <date locale="en">May 2008<br/>present</date>
-        <date locale="fr">Mai 2008<br/>actuellement</date>
-        <positiontitle locale="en"><b>Lead architect at <i>LesFurets.com</i></b>, Paris.</positiontitle>
-        <positiontitle locale="fr"><b>Architecte Principal chez <i>LesFurets.com</i></b>, Paris.</positiontitle>
+        <date locale="en">May 2008 - present</date>
+        <date locale="fr">Mai 2008 - actuellement</date>
+        <positiontitle locale="en">
+          <b>Cofounder and Lead architect<br/>
+          <font size="-2">LesFurets.com</font></b>
+        </positiontitle>
+        <positiontitle locale="fr">
+          <b>Cofondateur et Architecte Principal<br/>
+          <font size="-2">LesFurets.com</font></b>
+        </positiontitle>
+      </position>
+      <position>
+        <date locale="en">October 2015 - present</date>
+        <date locale="fr">Octobre 2015 - actuellement</date>
+        <positiontitle locale="en">
+          <b>Founder, project leader and conference speaker<br/>
+          <font size="-2"><a href="http://doov.org">dOOv</a> open source project</font></b>
+        </positiontitle>
+        <positiontitle locale="fr">
+          <b>Fondateur, contributeur et conférences<br/>
+          <font size="-2">Projet open-source <a href="http://doov.org">dOOv</a></font></b>
+        </positiontitle>
       </position>
       <keycontribution>
         <heading locale="en">
-          <b>Designed and developed a insurance comparison web site <i>LesFurets.com</i></b><br/>
+          <b>Cofounded the insurance comparison website <i>LesFurets.com</i></b><br/>
           <i>LesFurets.com</i> allows to compare and subscribe insurance from 100 companies and more than 1000 products for car, bike, health, house and loan.
           The website is used by 4 millions customers and deliver 3 millions quotes each year.
         </heading>
         <heading locale="fr">
-          <b>Conception et développement du site de comparaison d'assurance <i>LesFurets.com</i></b><br/>
+          <b>Cofondateur du site de comparaison d'assurance <i>LesFurets.com</i></b><br/>
           <i>LesFurets.com</i> permet de comparer et de souscrire parmi 100 assureurs, plus de 1000 produits d'assurance en automobile, moto, santé, habitation et prêt.
           Le site est utilisé par plus de 4 millions d'utilisateurs qui réalisent plus de 3 millions de tarifications chaque année.
         </heading>
       </keycontribution>
       <keycontribution>
         <heading locale="en">
-          <b>Created and developed the <a href="http://doov.io">dOOv</a> framework.</b><br/>
-          <a href="http://doov.io">dOOv</a> is an open source library that allows to write <b>type safe business rules</b> in Java or TypeScript DSL (Domain Specific Language).
-          Business rules are auditables in each production environnements by the business users in natural langage.
+          <b>Created the <a href="http://doov.org">dOOv</a> framework</b><br/>
+          <a href="http://doov.org">dOOv</a> is an open source library that allows to write <b>type safe business rules</b> in Java or TypeScript DSL (Domain Specific Language).
+          Business rules are auditables in each production environments by the business users in natural langage.
         </heading>
         <heading locale="fr">
-          <b>Création en développement du framework <a href="http://doov.io">dOOv</a>.</b><br/>
-          <a href="http://doov.io">dOOv</a> est un librairie open-source qui permet d'écrire dans un <b>DSL (Domain Specific Language) fortement typé</b> en Java ou TypeScript des règles métier.
+          <b>Créateur du framework <a href="http://doov.org">dOOv</a></b><br/>
+          <a href="http://doov.org">dOOv</a> est un librairie open-source qui permet d'écrire dans un <b>DSL (Domain Specific Language) fortement typé</b> en Java ou TypeScript des règles métier.
           Ces règles sont auditables en langage naturel par les utilisateurs métier dans les environnements de production.
         </heading>
       </keycontribution>
       <keycontribution>
         <heading locale="en">
-          <b>Methodology and developement process improvement</b><br/>
-          Introduced modular developement based on Java services, Apache Maven components,
-          data model governance and continuous delivery process that enable daily delivery of <i>LesFurets.com</i>.
+          <b>Improved developement processes at <i>LesFurets.com</i> during 12 years</b><br/>
+          Lead multiple technical transformations over the years, relying on modular developement based on Java services, Apache Maven components,
+          data model governance, continuous delivery process and DevOps practices that enable daily delivery of <i>LesFurets.com</i>.
         </heading>
         <heading locale="fr">
-          <b>Amélioration des méthodes et processus de développement</b><br/>
-          Introduction de developpements modularisés basés sur des services Java, des composants Apache Maven,
-          de la gouvernance de modèles de données et des processus de livraison continue qui permettent la livraison journalière du site <i>LesFurets.com</i>.
+          <b>Amélioration des processus de développement chez <i>LesFurets.com</i> durant 12 années</b><br/>
+          Direction de multiples transformations techniques au fil des années en s'appuyant sur des developpements modularisés basés sur des services Java,
+          des composants Apache Maven, de la gouvernance de modèles de données, des processus de livraison continue et des pratiques DevOps
+          pour permettre la livraison journalière du site.
+        </heading>
+      </keycontribution>
+      <keycontribution>
+        <heading locale="en">
+          <b>Team build of 30 engineers</b><br/>
+          Recruitment process implementation including technical interviews, team organization and technical mentoring during the company's growth period.
+          Creation of a technical grade scale for the engineering team. 
+        </heading>
+        <heading locale="fr">
+          <b>Construction d'une équipe de développement de 30 ingénieurs</b><br/>
+          Mise en place du processus de recrutement et des entretiens techniques, organisation des équipes et mentorat technique pendant la période de croissance de la société.
+          Création d'une échelle de grades techniques pour l'équipe d'ingénieurs.
         </heading>
       </keycontribution>
       <experience>
         <date locale="en">July 2018<br/>present</date>
         <date locale="fr">Juillet 2018<br/>actuellement</date>
+        <people locale="en">7 engineers</people>
+        <people locale="fr">7 ingénieurs</people>
         <heading locale="en">
           Lead front application architecture update based on <b>React/TypeScript</b>: migrate 3000 front business rules using <b>DSL</b> technologies and a <b>DDD</b> (Domain Driven Design) approach.<br/>
-          Rewrite in place the customer funnels and finally migrate all the business logic to the new React stack using a <a href="http://doov.io">dOOv</a> DSL.
+          Rewrite in place the customer funnels and finally migrate all the business logic to the new React stack using a <a href="http://doov.org">dOOv</a> DSL.
         </heading>
         <heading locale="fr">
-          Nouvelle architecture des applications frontales basée sur <b>React/TypeScript</b> : migration de 3000 règles métier en utilisant un <b>DSL</b> et une approche <b>DDD</b> (Domain Driven Design).<br/>
-          Réécriture incrémentale des parcours client pour migrer toute la logique métier en utilisant un DSL <a href="http://doov.io">dOOv</a> vers les nouvelles applications basées sur React.
+          Direction de l'équipe de ré-architecture des applications frontales basée sur <b>React/TypeScript</b> : migration de 3000 règles métier en utilisant un <b>DSL</b> et une approche <b>DDD</b> (Domain Driven Design).<br/>
+          Réécriture incrémentale des parcours client pour migrer toute la logique métier en utilisant un DSL <a href="http://doov.org">dOOv</a> vers les nouvelles applications basées sur React.
         </heading>
       </experience>
       <experience>
         <date locale="en">December 2017<br/>June 2018</date>
         <date locale="fr">Décembre 2017<br/>Juin 2018</date>
+        <people locale="en">7 engineers</people>
+        <people locale="fr">7 ingénieurs</people>
         <heading locale="en">
           Lead the data encryption strategy: identify users PII (Personally Identifiable Information) of the data-flow and <b>encrypt PII using AES-256</b> at the application level.<br/>
-          Extract all the secrets of the continuous delivery pipeline and use <b>Hashicorp Vault</b> to distribute them in the staging and production environnements.
+          Extract all the secrets of the continuous delivery pipeline and use <b>Hashicorp Vault</b> to distribute them in the staging and production environments.
         </heading>
         <heading locale="fr">
           Direction de la stratégie de chiffrement : identification des données personnelles dans le circuit de données et <b>chiffrement AES-256</b> au niveau applicatif.<br/>
@@ -120,20 +163,24 @@
       <experience>
         <date locale="en">January 2014<br/>September 2017</date>
         <date locale="fr">Janvier 2014<br/>Septembre 2017</date>
+        <people locale="en">8 engineers</people>
+        <people locale="fr">8 ingénieurs</people>
         <heading locale="en">
-          Design and implement a new storage system based on the <b>Cassandra NoSQL distributed database</b> and <b>lambda architecture</b> concepts.<br/>
+          Lead the design and implementation of a new storage system based on the <b>Cassandra NoSQL distributed database</b> and <b>lambda architecture</b> concepts.<br/>
           Fully rearchitecture the data-flow with micro-batch to allows real time data monitoring, BI and data history access of 3 millions quotes per year.
         </heading>
         <heading locale="fr">
-          Conception et réalisation d'un nouveau système de stockage basé sur <b>la base de données distribuée Cassandra</b> et des concepts de <b>lambda architecture</b>.<br/>
+          Direction de la conception et réalisation d'un nouveau système de stockage basé sur <b>la base de données distribuée Cassandra</b> et des concepts de <b>lambda architecture</b>.<br/>
           Nouvelle conception du circuit de données en utilisant des micro-batch pour permettre du monitoring, la BI en temps réel et un accès rapide à l'historique pour 3 millions de devis par an.
         </heading>
       </experience>
       <experience>
         <date locale="en">January 2012<br/>December 2013</date>
         <date locale="fr">Janvier 2012<br/>Décembre 2013</date>
+        <people locale="en">4 engineers</people>
+        <people locale="fr">4 ingénieurs</people>
         <heading locale="en">
-          Full redesign of the <b><i>LesFurets.com</i> client architecture based on MDD</b> (Model Driven Developpement).
+          Full redesign of <b><i>LesFurets.com</i> client architecture based on MDD</b> (Model Driven Developpement).
           The new frontend UI use a runtime modeling approach, code to code generation and annotation processing to enforce code reuse and readable code patterns.
         </heading>
         <heading locale="fr">
@@ -147,27 +194,44 @@
         <heading locale="en"><b>Devoxx</b> - Antwerp</heading>
         <heading locale="fr"><b>Devoxx</b> - Anvers</heading>
       </conference>
+      <!--
       <experience>
         <date locale="en">April 2011<br/>September 2011</date>
         <date locale="fr">Avril 2011<br/>Septembre 2011</date>
         <heading locale="en">
-          Implements a new design for the <b>branded web site <i>LesFurets.com</i></b> launch. The web site is based on the architecture of <i>Assuremieux.com</i>.
+          Implements a new design for the <b>branded website <i>LesFurets.com</i></b> launch. The website is based on the architecture of <i>Assuremieux.com</i>.
         </heading>
         <heading locale="fr">
           Mise en place d'un nouveau design pour le <b>lancement de la marque <i>LesFurets.com</i></b>. Le nouveau site est basé sur l'architecture d'<i>Assuremieux.com</i>.
         </heading>
       </experience>
+      -->
       <conference>
         <date locale="en">December 2010</date>
         <date locale="fr">Décembre 2010</date>
         <heading locale="en"><b>LeWeb</b> - Paris</heading>
         <heading locale="fr"><b>LeWeb</b> - Paris</heading>
       </conference>
+      <!--
       <experience>
         <date locale="en">November 2010</date>
         <date locale="fr">Novembre 2010</date>
-        <heading locale="en"><b>BGL Group acquires Courtanet/Assuremieux</b> for 10 million euros.</heading>
-        <heading locale="fr"><b>Aquisition de Courtanet/Assuremieux</b> par BGL Group pour 10 millions d'euros.</heading>
+        <heading locale="en"><b>BGL Group acquires <i>Assuremieux.com</i></b> for 10 million euros.</heading>
+        <heading locale="fr"><b>Aquisition de <i>Assuremieux.com</i></b> par BGL Group pour 10 millions d'euros.</heading>
+      </experience>
+      -->
+      <experience>
+        <date locale="en">May 2008<br/>November 2010</date>
+        <date locale="fr">Mai 2008<br/>Novembre 2010</date>
+        <people locale="en">8 engineers</people>
+        <people locale="fr">8 ingénieurs</people>
+        <heading locale="en">
+          <b>Cofounding <i>Assuremieux.com</i> an insurance comparaison service</b> relying on a modular design to connect french insurers web services for quotes and subscriptions.
+        </heading>
+        <heading locale="fr">
+          <b>Cofondateur de <i>Assuremieux.com</i> site internet de comparaison d'assurance</b>, le site est construit au dessus d'une plateforme modulaire
+          qui permet de connecter les services web de comparaison et souscription des assureurs français.
+        </heading>
       </experience>
       <conference>
         <date locale="en">November 2010</date>
@@ -175,7 +239,7 @@
         <heading locale="en"><b>Devoxx</b> - Antwerp</heading>
         <heading locale="fr"><b>Devoxx</b> - Anvers</heading>
       </conference>
-      <experience>
+      <experience visible="false">
         <date locale="en">June 2010<br/>April 2011</date>
         <date locale="fr">Juin 2010<br/>Avril 2011</date>
         <heading locale="en">
@@ -187,7 +251,7 @@
           Mise en place de <b>développement basés sur de la génération de code et des annotations Java</b> (accès au données, configuration de l'exécution et tests d'intégration).
         </heading>
       </experience>
-      <experience>
+      <experience visible="false">
         <date locale="en">March 2010<br/>May 2010</date>
         <date locale="fr">Mars 2010<br/>Mai 2010</date>
         <heading locale="en">
@@ -209,7 +273,7 @@
         <heading locale="en"><b>JavaOne</b> - San Francisco.</heading>
         <heading locale="fr"><b>JavaOne</b> - San Francisco.</heading>
       </conference>
-      <experience>
+      <experience visible="false">
         <date locale="en">February 2009<br/>February 2010</date>
         <date locale="fr">Février 2009<br/>Février 2010</date>
         <heading locale="en">
@@ -220,13 +284,13 @@
           Insurrance provider connections are based on <b>web service (Apache CXF) and XML RPC (Apache HttpClient)</b>.
 				</heading>
         <heading locale="fr">
-          <i>AssureMieux.com</i> : Amélioration de la plateforme d'origine de BenefitWeb afin d'intégrer un <b>large catalogue de produits d'assurance grand public</b>.
+          <i>AssureMieux.com</i> : Amélioration de la plateforme d'origine de BenefitWeb afin d'intégrer un <b>large catalogue de produits d'assurance</b>.
           <br/>
           Conception des différentes extensions de la plateforme, permettant de supporter des services de souscription pour les assurances; site frontal spécifique et système de gestion des données clientes.
           La connexion avec les assureurs est effectuée grâce à des <b>web services (Apache CXF) et des XML RPC (Apache HttpClient)</b>.
         </heading>
       </experience>
-      <experience>
+      <experience visible="false">
         <date locale="en">May 2008<br/>January 2009</date>
         <date locale="fr">Mai 2008<br/>Janvier 2009</date>
         <heading locale="en">
@@ -235,7 +299,7 @@
           <br/>
           The platform is build on top of an insurance domain model and a <b>business rules framwork mixed of DRools 5 decision tables and Java</b>.
           <br/>
-          Insurrance provider connections are based on web site <b>screen scrapping</b> (http and html text parsing).
+          Insurrance provider connections are based on website <b>screen scrapping</b> (http and html text parsing).
         </heading>
         <heading locale="fr">
           BenefitWeb SaaS : Conception et réalisation de la plateforme BenefitWeb. Cette plateforme est basée sur une <b>architecture de service Java conçue pour échanger des forts volumes de flux</b>.
@@ -244,7 +308,7 @@
           La plateforme est basée sur un modèle de données pivot et des <b>règles métier écrites sous forme de tables de décision DRools 5 et de code Java</b>. La connexion avec les assureurs est effectuée grâce à du <b>parsing automatique de site web</b>.
         </heading>
       </experience>
-      <experience>
+      <experience visible="false">
         <date locale="en">May 2008<br/>September 2008</date>
         <date locale="fr">Mai 2008<br/>Septembre 2008</date>
         <heading locale="en">
@@ -257,19 +321,25 @@
     </company>
     <company>
       <name locale="en">Prima Solutions, Paris, France</name>
-      <name locale="fr">Prima Solutions, Paris, France</name>
+      <name locale="fr">Prima Solutions, Paris</name>
       <date locale="en">2004 - 2008</date>
       <date locale="fr">2004 - 2008</date>
       <description locale="en">Prima Solutions provides standard-based software to support incremental transformation of existing Insurance IT systems
-      into component-based Service Oriented Applications. The company is composed of 20 employees, world wide, including 6 R&amp;D engineers.</description>
+      into component-based Service Oriented Applications. The company was made up in 2008 of 40 employees, world wide, including 15 R&amp;D engineers.</description>
       <description locale="fr">Prima Solutions est un fournisseur de logiciels génériques pour la mise à jour incrémentale de système d'information dans 
       le domaine de l'assurance.
-      La société est composée de 20 employés à travers le monde dont 6 ingénieurs R&amp;D</description>
+      La société était composée en 2008 de 40 employés à travers le monde dont 15 ingénieurs R&amp;D</description>
       <position>
-        <date locale="en">September 2004<br/>April 2008</date>
-        <date locale="fr">Septembre 2004<br/>Avril 2008</date>
-        <positiontitle locale="en"><b>Software architect at Prima Solutions</b>, Paris.</positiontitle>
-        <positiontitle locale="fr"><b>Architecte logiciel chez Prima Solutions</b>, Paris.</positiontitle>
+        <date locale="en">September 2004 - April 2008</date>
+        <date locale="fr">Septembre 2004 - Avril 2008</date>
+        <positiontitle locale="en">
+          <b>Software architect<br/>
+          <font size="-2">Prima Solutions</font></b>
+        </positiontitle>
+        <positiontitle locale="fr">
+          <b>Architecte logiciel<br/>
+          <font size="-2">Prima Solutions</font></b>
+        </positiontitle>
       </position>
       <keycontribution>
         <heading locale="en">
@@ -300,14 +370,10 @@
         <date locale="en">March 2007<br/>April 2008</date>
         <date locale="fr">Mars 2007<br/>Avril 2008</date>
         <heading locale="en">
-					Maintenance releases of Prima Solutions products.<br/>
-					Prima IBCS 5.1: update to MagicDraw 15.5 and Mia Generation 5.2, added a new <b>semantic plugins</b> based on tag clouds (as editing paradigm for UML tagged values), and a <b>fulltext search plugin with treemap UI results</b> and tagging colors.<br/>
-					Prima Repository 5.1: third parties updates.
+					Created a new <b>semantic plugins</b> in Prima IBCS 5.1, the plugin is based on tag clouds (as editing paradigm for UML tagged values), and a <b>fulltext search plugin with treemap UI results</b> and tagging colors.<br/>
         </heading>
         <heading locale="fr">
-					Version de maintenance des produits Prima.<br/>
-					Prima IBCS 5.1 : mise à jour vers MagicDraw 15.5 et Mia Generation 5.2, création d'un nouveau <b>plugin sémantic</b> basé sur des nuages de tags (nouveau paradigme d'édition pour les 'tagged values' UML), et un <b>plugin de recherche textuelle avec visualisation des résultats dans des treemaps</b> et colorisation des tags.<br/>
-					Prima Repository 5.1 : mise à jour des librairies tiers.
+					Création d'un nouveau <b>plugin sémantic</b> pour Prima IBCS 5.1, le plugin est basé sur des nuages de tags (nouveau paradigme d'édition pour les 'tagged values' UML), et un <b>plugin de recherche textuelle avec visualisation des résultats dans des treemaps</b> et colorisation des tags.<br/>
         </heading>
       </experience>
       <experience>
@@ -315,12 +381,12 @@
         <date locale="fr">Février 2007<br/>Juillet 2007</date>
         <heading locale="en">
 					Migrated the Prima IBCS UML model from <b>UML 1.4 to UML 2.0 / EMF</b>.<br/>
-					The migration includes the rewriting of a code generator based on MIA Generation 5.0 and new <b>MagicDraw 12 validation plugins</b>.
+					The migration includes the rewriting of a code generator based on MIA Generation and new <b>MagicDraw validation plugins</b>.
 					Prima IBCS 5.0 has been greatly improved through a specific <b>dependency analysis tools</b>, detecting unintended references between UML packages.				
 				</heading>
         <heading locale="fr">
 					Migration du modèle UML Prima IBCS de <b>UML 1.4 à UML 2.0 / EMF</b>.<br/>
-					La migration consiste à réécrire le générateur de code basé sur MIA Generation 5.0 et sur un nouveau <b>plugin de validation pour MagicDraw 12</b>.
+					La migration consiste à réécrire le générateur de code basé sur MIA Generation et sur un nouveau <b>plugin de validation pour MagicDraw</b>.
 					Prima IBCS 5.0 a été largement amélioré grâce à un outil spécifique d'analyse de dépendances, conçu pour détecter les relations et références inappropriées entre packages UML.
 				</heading>
       </experience>
@@ -330,10 +396,9 @@
         <heading locale="en">
 					Redesigned and developed the new Prima Repository 5.0 based on Prima Platorm.<br/>
 					The redesign is based on the implementation of <b>a new repository API (JSR-170 inspired)</b>, a management model, a basic bootstrap mechanism
-					and <b>isolates clearly the design (asset editing) and runtime (BPM and	service engine) phases</b> of the software life cycle.<br/>
+					and <b>isolates clearly the design (asset editing) and runtime (BPM and	service engine)</b> of the software life cycle.<br/>
 					Data-persistence is completly updated through <b>high performance XML files and XML schemas</b>, to facilitate data exchange (import, export,
 					staging mechanism), editing forms, refresh and merging mechanism.
-					The Prima Repository 5.0 <b>integrates ILOG JRules 6.5</b>, thanks to a repository plugin and the Rule Execution Server.				
 				</heading>
         <heading locale="fr">
 					Conception et réécriture du nouveau produit Prima Repository 5.0 basé sur Prima Platform.<br/>
@@ -341,7 +406,6 @@
 					afin de <b>séparer au sein du logiciel, les fonctionnalités de conception (édition des éléments), et celles d'exécution (moteur de workflow et de service)</b>.<br/>
 					<b>La persistence des données du logiciel est basée sur des fichiers XML et des schémas XML</b>, afin de faciliter l'échange de données (import, export,
 					mécanismes de mise en production), le développement des formulaires d'édition de données, et les mécanismes de "merge".
-					Un mécanisme de plugin, conçu autour du "Rule Execution Server", permet l'intégration de <b>ILOG JRules 6.5</b>.
 				</heading>
       </experience>
       <conference>
@@ -355,13 +419,11 @@
         <date locale="fr">Août 2005<br/>Novembre 2005</date>
         <heading locale="en">
 					Designed and developed the first <b>code generator</b> for Prima IBCS 4.2.<br/>
-					The main goal of the code generator feature was to normalise the UML model thanks to a Magicdraw 9.5 plugin and a <b>automated model cartography built in an Excel spreadsheet</b>.
-					The code generator is based on a <b>specific AndroMDA 3.2 cartridge</b>.
+					The main goal of the code generator feature was to normalise the UML model thanks to a Magicdraw plugin and a <b>automated model cartography built in an Excel spreadsheet</b>.
 				</heading>
         <heading locale="fr">
 					Conception et développement du premier <b>générateur de code</b> de Prima IBCS 4.2.<br/>
-					La fonctionnalité de générateur de code a nécessité de normaliser le modèle UML grâce à un plugin développé pour MagicDraw 9.5 et une <b>cartographie automatique du modèle fonctionnant dans une feuille Excel</b>.
-					Le code générateur est écrit dans une <b>cartouche spécifique de AndroMDA 3.2</b>.
+					La fonctionnalité de générateur de code a nécessité de normaliser le modèle UML grâce à un plugin développé pour MagicDraw et une <b>cartographie automatique du modèle fonctionnant dans une feuille Excel</b>.
 				</heading>
       </experience>
       <experience>
@@ -369,50 +431,77 @@
         <date locale="fr">Septembre 2004<br/>Juillet 2005</date>
         <heading locale="en">
 					Contributed to Prima Platform 4.x studio by improving <b>workflow editor usability</b> (drag and drop, validation panel, edition toolbar) based on ILOG JViews Component Suite.<br/>
-					developed a deployment <b>parameters mechanism to improve runtime staging</b> and a proof of concept of a <b>ILOG JRules 5.1 integration</b>.
+					developed a deployment <b>parameters mechanism to improve runtime staging</b> and a proof of concept of a <b>ILOG JRules integration</b>.
 				</heading>
         <heading locale="fr">
 					Contribution au studio de Prima Platform 4.x en améliorant l'<b>ergonomie de l'éditeur de workflow</b> (glisser/déposer, panneau de validation, barre d'outil d'édition) basé sur ILOG JViews Component Suite.<br/>
-					Développement d'un <b>mécanisme de paramétrage pour la mise en production</b>, et d'un prototype d'<b>intégration de ILOG JRules 5.1</b>.
+					Développement d'un <b>mécanisme de paramétrage pour la mise en production</b>, et d'un prototype d'<b>intégration de ILOG JRules</b>.
 				</heading>
       </experience>
     </company>
     <company>
       <name locale="en">ILOG, Paris, France</name>
-      <name locale="fr">ILOG, Paris, France</name>
-      <date locale="en">2000 - 2008</date>
-      <date locale="fr">2000 - 2008</date>
-      <description locale="en">ILOG is a software vendor of enterprise-class software components and services. The company is composed of 650 employees, world wide, including more than 150 R&amp;D engineers.</description>
-      <description locale="fr">ILOG est l'un des leaders mondiaux des composants logiciels d'entreprise et de services associés. La société est composée de 650 employés à travers le monde dont plus de 150 ingénieurs R&amp;D</description>
+      <name locale="fr">ILOG, Paris</name>
+      <date locale="en">2000 - 2004</date>
+      <date locale="fr">2000 - 2004</date>
+      <description locale="en">
+        ILOG is a software vendor of enterprise-class software components and services.
+        The company was made up in 2004 of 650 employees, world wide, including more than 150 R&amp;D engineers.
+        ILOG has been part of IBM Software Group since january 2009.
+      </description>
+      <description locale="fr">
+        ILOG est l'un des leaders mondiaux des composants logiciels d'entreprise et de services associés.
+        En 2004, la société était composée de 650 employés à travers le monde dont plus de 150 ingénieurs R&amp;D.
+        ILOG fait partie de IBM Software Group depuis janvier 2009.
+      </description>
       <position>
-        <date locale="en">February 2003<br/>August 2004</date>
-        <date locale="fr">Février 2003<br/>Août 2004</date>
-        <positiontitle locale="en"><b>Senior software engineer at ILOG</b>, Paris.</positiontitle>
-        <positiontitle locale="fr"><b>Ingénieur logiciel senior chez ILOG</b>, Paris.</positiontitle>
+        <date locale="en">February 2003 - August 2004</date>
+        <date locale="fr">Février 2003 - Août 2004</date>
+        <positiontitle locale="en">
+          <b>Senior software engineer<br/>
+          <font size="-2">ILOG - JRules team</font></b>
+        </positiontitle>
+        <positiontitle locale="fr">
+          <b>Ingénieur logiciel senior<br/>
+          <font size="-2">ILOG - JRules team</font></b>
+        </positiontitle>
+        <!-- 
         <heading locale="en">
-          Member of the <b>Enterprise Integration</b> development team of the <b>JRules</b> product. JRules is a rules development suite composed of an engine and a development kit.</heading>
+          Member of the <b>JRules</b> team. JRules is a business rules engine and a development environment.
+        </heading>
         <heading locale="fr">
-          Membre de l’équipe de développement <b>Enterprise Integration</b> du produit <b>JRules</b>. JRules est une suite de développement de règles composée d’un moteur et d’un environnement de développement.</heading>
+          Membre de l’équipe <b>JRules</b>. JRules est un moteur de règles métier ainsi qu'un environnement de développement.
+        </heading>
+        -->
       </position>
       <position>
-        <date locale="en">December 2000<br/>February 2003</date>
-        <date locale="fr">Décembre 2000<br/>Février 2003</date>
-        <positiontitle locale="en"><b>Software engineer at ILOG</b>, Paris.</positiontitle>
-        <positiontitle locale="fr"><b>Ingénieur logiciel chez ILOG</b>, Paris.</positiontitle>
+        <date locale="en">December 2000 - February 2003</date>
+        <date locale="fr">Décembre 2000 - Février 2003</date>
+        <positiontitle locale="en">
+          <b>Software engineer<br/>
+          <font size="-2">ILOG - JViews Component Suite team</font></b>
+        </positiontitle>
+        <positiontitle locale="fr">
+          <b>Ingénieur logiciel<br/>
+          <font size="-2">ILOG - JViews Component Suite team</font></b>
+        </positiontitle>
+        <!--
         <heading locale="en">
-          Member of the development team of the <b>JViews Component Suite</b>. JViews is a set of graphical components on top of Java2D including charts, Gantt chart and grapher with advanced graph layout capabilities.</heading>
+          Member of the <b>JViews Component Suite</b> team. JViews is a set of graphical components on top of Java2D including charts, Gantt chart and grapher with advanced graph layout capabilities.
+        </heading>
         <heading locale="fr">
-          Membre de l’équipe de développement du produit <b>JViews Component Suite</b>. JViews est un ensemble de composants graphiques basés sur Java2D, cette suite inclut des graphes 2D, des graphes de Gantt et un composant d’édition de graphes comportant des fonctions avancées de disposition automatique.</heading>
+          Membre de l’équipe <b>JViews Component Suite</b>. JViews est un ensemble de composants graphiques basés sur Java2D, cette suite inclut des graphes 2D, des graphes de Gantt et un composant d’édition de graphes comportant des fonctions avancées de disposition automatique.
+        </heading>
+        -->
       </position>
       <keycontribution>
         <heading locale="en">
           <b>Designed and developed the BRES - Business Rules Exection Server</b><br/>
-          This application is part of JRules 5.0. This server-side application is a J2EE integration of JRules.
+          This server-side application is a J2EE integration of JRules.
           It is based on JCA and JMX and allows deploying, executing and monitoring of business rules.
         </heading>
         <heading locale="fr">
           <b>Conception et développement du BRES - Business Rules Exection Server</b><br/>
-          Cette application est intégrée dans le produit à partir de la version 5.0.
           Cette application serveur est une intégration avancée de JRules dans l'environnement J2EE.
           Elle est basée sur JMX et JCA et permet le déploiement, l'exécution et le monitoring des règles.
         </heading>
@@ -421,11 +510,12 @@
         <heading locale="en">
           <b>Designed and developed the JViews Workflow Modeler</b><br/>
           This application has been introduced in JViews 4.0 and packaged in a specific distribution named JViews for Workflow.<br/>
-          This editor allows you to edit workflow diagrams described in XML. The modeler is a generic application that is fully customizable through a documented API and XML settings.</heading>
+          This editor allows to edit workflow diagrams described in XML.
+        </heading>
         <heading locale="fr">
           <b>Conception et développement du JViews Workflow Modeler</b><br/>
           Cette application a été introduite dans le produit à partir de la version 4.0 et possède une distribution spécifique nommée JViews for Workflow.<br/>
-          Cet éditeur permet l’édition de diagrammes de workflow décrit en XML. Le modeler est une application générique avec de nombreuses customisations possibles grâce à une API documentée et des fichiers de paramétrage en XML.
+          Cet éditeur permet l’édition de diagrammes de workflow décrits en XML.
         </heading>
       </keycontribution>
       <keycontribution>
@@ -436,6 +526,7 @@
           <b>Conception d’une librairie document/vue simple</b> pour le développement d’application d’affichage de diagrammes.
         </heading>
       </keycontribution>
+      <!--
       <keycontribution>
         <heading locale="en">
           <b>Developed and packaged a set of code sample demos</b> to show the features of a Java MVC component named SDM (Stylable Data Mapper). This component allows displaying and editing of diagrams.
@@ -444,6 +535,8 @@
           <b>Développement et packaging  de plusieurs exemples de code</b> qui montrent les différentes fonctionnalités d’un composant MVC nommé SDM (Stylable Data Mapper). Ce composant permet l’affichage et l’édition de diagrammes.
         </heading>
       </keycontribution>
+      -->
+      <!-- 
       <keycontribution>
         <heading locale="en">
           <b>Updated and maintained the use of Apache Ant and Apache Tomcat
@@ -454,6 +547,7 @@
           </b> dans la distribution de JViews (scripts de compilation et de déploiement).
         </heading>
       </keycontribution>
+      -->
       <conference>
         <date locale="en">July 2004</date>
         <date locale="fr">Juillet 2004</date>
@@ -469,7 +563,7 @@
       <experience>
         <date locale="en">June 2003<br/>December 2003</date>
         <date locale="fr">Juin 2003<br/>Décembre 2003</date>
-        <heading locale="en">Designed and developed the <b>management model and the web console of the BRES</b>. This console allows you to manage the BRES JMX model from a web browser.</heading>
+        <heading locale="en">Designed and developed the <b>management model and the web console of the BRES</b>. This console allows to manage the BRES JMX model from a web browser.</heading>
         <heading locale="fr">Conception et développement du <b> modèle de management et de la console web du BRES</b>. Cette console permet de gérer le modèle JMX du BRES depuis un navigateur internet.</heading>
       </experience>
       <conference>
@@ -496,12 +590,14 @@
         <heading locale="en"><b>JavaOne</b> - San Francisco</heading>
         <heading locale="fr"><b>JavaOne</b> - San Francisco</heading>
       </conference>
+      <!--
       <experience>
         <date locale="en">March 2002</date>
         <date locale="fr">Mars 2002</date>
         <heading locale="en">Developed a prototype of a <b>connector to provide runtime-monitoring views of a business process running in the Versata Interaction Server</b> (workflow engine from Versata). The prototype was shown at the JavaOne 2002 Conference.</heading>
         <heading locale="fr">Conception et développement d’un prototype de connecteur qui permet d’obtenir des écrans de supervision sur l’exécution du moteur de workflow VIS (Versata Interaction Server). Le prototype a été montré à la conférence JavaOne 2002.</heading>
       </experience>
+      -->
       <experience>
         <date locale="en">February 2002</date>
         <date locale="fr">Février 2002</date>
@@ -511,7 +607,7 @@
       <experience>
         <date locale="en">December 2001</date>
         <date locale="fr">Décembre 2001</date>
-        <heading locale="en">Developed a <b>thin-client workflow-monitoring</b> cockpit based on the JViews DHTML library. Implemented DHTML table and inspector components linked to a server side data model. The demonstration is visible on the JViews web site.</heading>
+        <heading locale="en">Developed a <b>thin-client workflow-monitoring</b> cockpit based on the JViews DHTML library. Implemented DHTML table and inspector components linked to a server side data model. The demonstration is visible on the JViews website.</heading>
         <heading locale="fr">Conception et développement d’un <b>client léger de supervision de workflow</b> basé sur la librairie DHTML de JViews. Implémentation de composants de table et d’inspecteur DHTML connectés à un modèle de données serveur. L'application est visible sur le site web de JViews.</heading>
       </experience>
     </company>
@@ -710,18 +806,6 @@
       <confspeaker>
         <date locale="en">June 2012</date>
         <date locale="fr">Juin 2012</date>
-        <conftitle locale="en">DevOps story - Application configuration jungle</conftitle>
-        <conftitle locale="fr">DevOps illustré - la jungle de la configuration d'une application</conftitle>
-        <location locale="en">
-          <b>Paris DevOps User Group</b>
-        </location>
-        <location locale="fr">
-          <b>Paris DevOps User Group</b>
-        </location>
-      </confspeaker>
-      <confspeaker>
-        <date locale="en">June 2012</date>
-        <date locale="fr">Juin 2012</date>
         <conftitle locale="en">APT - Annotation Processing Tool in a nutshell</conftitle>
         <conftitle locale="fr">Tutoriel sur APT - Annotation Processing Tool</conftitle>
         <location locale="en">
@@ -732,14 +816,22 @@
         </location>
       </confspeaker>
       <confspeaker>
-        <date locale="en">April 2012</date>
-        <date locale="fr">Avril 2012</date>
+        <date locale="en">
+          June 2012<br/>
+          April 2012
+        </date>
+        <date locale="fr">
+          Juin 2012<br/>
+          Avril 2012
+        </date>
         <conftitle locale="en">DevOps story - Application configuration jungle</conftitle>
         <conftitle locale="fr">DevOps illustré - la jungle de la configuration d'une application</conftitle>
         <location locale="en">
+          <b>Paris DevOps User Group</b><br/>
           <b>Devoxx France</b> - <i>Paris</i>
         </location>
         <location locale="fr">
+          <b>Paris DevOps User Group</b><br/>
           <b>Devoxx France</b> - <i>Paris</i>
         </location>
       </confspeaker>

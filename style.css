@@ -7,12 +7,36 @@ table {
   border-spacing: 0px;
 }
 
+table.speaker {
+  margin-top: 10px;
+}
 table.confspeaker {
   margin-left: 40px;
 }
 
+table.education {
+  margin-top: 10px;
+}
+
+table.languagelist {
+  margin-top: 10px; 
+}
+
+table.personal {
+  margin-top: 10px; 
+}
+
 table.position {
-  padding-left: 0pt;
+  padding-left: 5pt;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: lightsteelblue;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightsteelblue;
+  margin-left: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 table.keycontribution {
@@ -20,18 +44,22 @@ table.keycontribution {
 }
 
 table.experience-title {
-  padding-left: 18pt;
+  padding-left: 10pt;
 }
 
 table.experience {
-  padding-left: 18pt;
+  padding-left: 20pt;
+}
+
+table.company {
+  margin-top: 10px;
 }
 
 ul.keycontribution {
   margin-top: 5px;
-  width: 600px;
-  margin-right: 20px;
-  margin-left: 25px;
+  width: 630px;
+  list-style-image: url('bullet.png');
+  padding-inline-start: 50px;
 }
 
 div.companyname {
@@ -53,7 +81,7 @@ div.objective {
   text-align: center;
   font-weight: bold;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 12.5pt;
 }
@@ -86,11 +114,12 @@ td.experiencedate {
 }
 
 td.positiondate {
-  padding-left: 18pt;
+  padding-left: 5pt;
 }
 
 td.diplomadate {
   padding-left: 18pt;
+  width: 90px;
 }
 
 td.language {
@@ -116,7 +145,6 @@ div.listcell {
   font-size: 10pt;
   padding-top: 5pt;
   padding-left: 5pt;
-  padding-right: 5pt;
 }
 
 div.tablecell {
@@ -133,12 +161,29 @@ div.tablecellleft {
   padding-right: 5pt;
 }
 
-div.language {
-  width: 340px;
+div.personal {
   margin-top: 10px;
   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 10pt;
-  text-align: justify;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 5pt;
+}
+
+div.language {
+  width: 80px;
+  margin-top: 10px;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 10pt;
+  padding-left: 0pt;
+  padding-right: 5pt;
+}
+
+div.languagelevel {
+  width: 500px;
+  margin-top: 10px;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 10pt;
   padding-left: 5pt;
   padding-right: 5pt;
 }
@@ -147,19 +192,25 @@ div.experiencedesc {
   margin-top: 10px;
   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 9pt;
-  text-align: justify;
   padding-left: 5pt;
   padding-right: 5pt;
   border-left-width: 1px;
   border-left-style: solid;
-  border-left-color: grey;
+  border-left-color: lightsteelblue;
+}
+
+div.positiondate {
+  margin-top: 5px;
+  width: 60pt;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 8pt;
+  text-align: left;
 }
 
 div.positiontitle {
   margin-top: 10px;
   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 10pt;
-  text-align: justify;
   padding-left: 5pt;
   padding-right: 5pt;
 }
@@ -168,10 +219,12 @@ div.positiondesc {
   margin-top: 5px;
   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 9pt;
-  text-align: justify;
   padding-left: 5pt;
   padding-right: 5pt;
-}
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: lightsteelblue;
+} 
 
 div.tablecellright {
   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -181,32 +234,45 @@ div.tablecellright {
   padding-right: 5pt;
 }
 
-div.title {
-  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 10pt;
-  text-align: center;
-  font-weight: bold;
-  background: #dddddd;
-  border-color: #898989;
-  border-style: solid;
-  border-width: thin;
-  padding: 4px;
-  padding-left: 10px;
-}
-
-div.titleright {
+div.title_1 {
   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 10pt;
   text-align: left;
   font-weight: bold;
-  background: #dddddd;
-  padding-left: 5pt;
-  padding-right: 5pt;
-  border-color: #898989;
-  border-style: solid;
-  border-width: thin;
+  border-color: lightsteelblue;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-left-width: 8px;
+  border-bottom-width: 1px;
   padding: 4px;
   padding-left: 10px;
+}
+
+div.title_2 {
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 10pt;
+  text-align: left;
+  font-weight: bold;
+  border-color: lightsteelblue;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-left-width: 8px;
+  border-bottom-width: 1px;
+  padding: 4px;
+  padding-left: 10px;
+}
+
+div.title_3 {
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 10pt;
+  text-align: left;
+  font-weight: bold;
+  border-color: lightsteelblue;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 4px;
+  padding-left: 0px;
+  margin-left: 35px;
 }
 
 div.date {
@@ -225,7 +291,7 @@ div.confdate {
   text-align: left;
   border-left-width: 1px;
   border-left-style: solid;
-  border-left-color: grey;
+  border-left-color: lightsteelblue;
 }
 
 div.columnheader {
